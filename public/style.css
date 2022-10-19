@@ -1,0 +1,133 @@
+body {
+    background-color: whitesmoke;
+    padding: 20px;
+    font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: xx-large;
+    text-align:  center;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.intro {
+    justify-content: center;
+}
+
+.search_section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+}
+
+
+.search_url {
+    padding-inline: 20px;
+
+}
+
+
+.search_dropdown {
+    /* padding-inline: 20px; */
+    /* width: 150px; */
+    /* display: inline-block; */
+   align-content:  center;
+}
+
+
+.garment_section {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    text-align: center;
+}
+
+.garment_img_wrapper {
+    background-color: #ffd670;;
+    width: 49%;
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    /* align-items: center; */
+}
+
+.garment_score {
+    font-size:x-large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.garment_img {
+    max-height: min-content;
+    padding: 20px;
+    max-width: min-content;
+}
+
+.garment_criteria_all {
+    background-color: #ffd670;
+    width: 49%;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.garment_criteria_title{
+  padding: 20px;
+  font-size: x-large;
+  font-weight: bold; 
+  justify-content: center;
+}
+
+.garment_criteria_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pass_fail_icon {
+    /* max-width: 6%; */
+    padding: 20px;
+    min-width: 15px;
+    max-height: 30px;
+}
+
+.pass_fail_desc {
+
+    display: flex;
+    font-weight:bold;
+    font-size: large;   
+}
+
+.FixIt{
+    padding: 20px;
+    font-size:x-large;
+    font-weight: bold;  
+}
+
+.ProductInfoSection{
+    text-align: center;
+}
+
+.ProductHeader{
+    font-size:x-large;
+    font-weight: bold; 
+}
+
+.fancy{
+    font-size:small;
+}
+

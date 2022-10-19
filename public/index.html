@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Are There Pockets</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    </link>
+</head>
+
+<body>
+    <section class="intro">
+        <h1>Pocket Change Mission</h1>
+        <h2>because pockets on women's pants <strong>usually</strong> suck</h2>
+    </section>
+    <section class="search_section">
+        <!-- <div class="search_label">
+            <label for="search_dropdown" class="search_label"> Browse the state of women's pants:</label>
+        </div> -->
+        <!-- <div class="search_url">
+            <input type="text" id="search_url" name="search_url" size="100%">
+        </div> -->
+        <div class="search_dropdown" name="search_dropdown">
+            <select name="search_dropdown" id="search_dropdown">
+                <option value=" "> Browse the state of women's pants </option>
+                <!-- <option value="Dovetail_Workwear_Britt_Jeans"> Dovetail_Workwear_Britt_Jeans</option>
+                <option value="JCrew_Pixie_Pant"> JCrew_Pixie_Pant </option>
+                <option value="Athleta_Hustle_Shorts"> Athleta_Hustle_Shorts</option>
+                <option value="Everlane_Curvy_Jeans"> Everlane_Curvy_Jeans</option> -->
+            </select>
+        </div>
+
+
+    </section>
+    <section class="garment_section" id="garmentWrapper">
+        <!-- <div class="garment_grade">
+            <p class="garment_grade"> FAIL</p>
+        </div> -->
+        <div class="garment_img_wrapper">
+            <!-- <h2 class="garment_score"> Pass/Fail/Score</h2> -->
+            <label for="garment_score" class="garment_score" id="garmentScore">Score</label>
+            <div class="garmentPic" id="garmentPic">
+            </div>
+            <img class="garment_img" id="garmentImg" src="TerriblePockets.webp" alt="cat" style="display:none" />
+        </div>
+
+        <!-- <div class = "hover" id = "hover">
+            <h1 class = "hover_score" id = "hover_score"></h1>
+            <p class = "hover_link" id = "hover_score"></p>
+        </div> -->
+
+        <div class="garment_criteria_all">
+            <h2 class="garment_criteria_title" id="garment_criteria_title"> <br></br>Here's the Bechdel test for pants: </h2>
+            <div class="garment_criteria_item">
+                <img class="pass_fail_icon" id="pocketIcon" src="question-mark.png" alt="red x" />
+                <p class="pass_fail_desc"> Do they have pockets?</p>
+            </div>
+            <div class="garment_criteria_item">
+                <img class="pass_fail_icon" id="realIcon" src="question-mark.png" alt="red x" />
+                <p class="pass_fail_desc"> No, I mean real pockets.</p>
+            </div>
+            <div class="garment_criteria_item">
+                <img class="pass_fail_icon" id="phoneIcon" src="question-mark.png" alt="red x" />
+                <p class="pass_fail_desc"> Do the pockets hold a smart phone?</p>
+            </div>
+            <br></br>
+            <br></br>
+
+            <div class="fixGroup" id="fixGroup" style="display: none;">
+
+                <div class="FixIt" id="FixIt">
+                    <p class="FixItTxt" id="FixItTxt"> Can we fix this nonsense?</p>
+                </div>
+                <div class="search_button">
+                    <button type="button" id="addButton">
+                        Add some pockets
+                    </button>
+                </div>
+                <div class="fancy" id="fancy">
+                    <p class="fancy" id="fancy"> The a and d keys change the size of the pockets. <br> The left and
+                        right arrow keys change the color. </p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="ProductInfoSection" id="ProductInfoSection">
+        <div class="ProductInfo" id="ProductInfo">
+            <p class="ProductHeader" id="ProductHeader"> Sigh.</p>
+            <p class="ProductBrand" id="ProductBrand">
+                <strong class="Brand" id="Brand"> If you need more evidence</strong>,
+                <strong class="ProductName" id="ProductName"> here is some rigorous investigative journalism: </strong>
+                <a href="https://metro.co.uk/2018/08/24/womens-pockets-really-are-smaller-than-mens-7878472/"
+                    class="garmentUrl" id="garmentUrl" target="_blank">metro.co.uk</a>
+            </p>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
